@@ -11,6 +11,10 @@ public class Alumno {
 		this.dni = dni;
 	}
 
+	public Alumno() {
+		
+	}
+
 	@Override
 	public String toString() {
 		return "Alumno [nombre=" + nombre + ", apellido=" + apellido + ", dni=" + dni + "]";
